@@ -1,8 +1,42 @@
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif !important;
+}
+
+.text-mouse {
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	color: rgb(48, 48, 48);
+	font-size: 12px;
+	font-weight: 600;
+	user-select: none;
+	pointer-events: none;
+	animation: animate 7.5s linear infinite;
+}
+@keyframes animate {
+	0% {
+		transform:rotate(0deg);
+	}
+	100% {
+		transform:rotate(360deg);
+	}
+}
+
+.text-mouse span {
+	position: absolute;
+	top: -60px;
+	text-transform: uppercase;
+	display: inline-block;
+	transform-origin: 0 60px;
+}
+
+.heart span {
+	font-size: 40px !important;
 }
 
 body {
