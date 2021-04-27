@@ -6,11 +6,18 @@
 	font-family: 'Montserrat', sans-serif !important;
 }
 
-.text-mouse {
-	position: absolute;
+section{
+	position: relative;
 	justify-content: center;
 	align-items: center;
 	display: flex;
+	min-height: 100vh;
+	overflow: hidden;
+}
+
+
+.text-mouse {
+	position: absolute;
 	color: rgb(48, 48, 48);
 	font-size: 12px;
 	font-weight: 600;
