@@ -7,12 +7,11 @@
 }
 
 section{
-	position: relative;
+	position: absolute;
 	justify-content: center;
 	align-items: center;
 	display: flex;
 	min-height: 100vh;
-	overflow: hidden;
 }
 
 
