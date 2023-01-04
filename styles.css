@@ -118,7 +118,7 @@ img {
 	background-size: cover;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
 	.container-items {
 		height: 100px;
 	}
